@@ -10,6 +10,25 @@
 docker run carloslimasis/codeeducation
 ```
 
+## Expected output
+
+```sh
+docker run carloslimasis/codeeducation   
+Unable to find image 'carloslimasis/codeeducation:latest' locally
+latest: Pulling from carloslimasis/codeeducation
+b1dde5b53a32: Pull complete 
+Digest: sha256:d8efa1706ebb2b412986a0fc8c1fde5849c7945255c97df448e085486ea5954f
+Status: Downloaded newer image for carloslimasis/codeeducation:latest
+Code.education Rocks!
+```
+
+## Expected image size
+
+```sh
+REPOSITORY                   TAG     IMAGE ID      CREATED             SIZE
+carloslimasis/codeeducation  latest  96a1dcaaf99c  10 minutes ago      1.94MB
+```
+
 ## Author
 
 👤 **Carlos Lima**
